@@ -7,58 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A02E1DB1CA6B7F700262D7E /* LZDemoOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A02E1C61CA6B7F700262D7E /* LZDemoOne.storyboard */; };
-		7A02E1DC1CA6B7F700262D7E /* LZDemoOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1C81CA6B7F700262D7E /* LZDemoOneViewController.m */; };
-		7A02E1DD1CA6B7F700262D7E /* LZOneLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1CA1CA6B7F700262D7E /* LZOneLabelViewController.m */; };
-		7A02E1DE1CA6B7F700262D7E /* LZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1CD1CA6B7F700262D7E /* LZTabBarViewController.m */; };
-		7A02E1DF1CA6B7F700262D7E /* 兰亭黑_GBK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7A02E1CF1CA6B7F700262D7E /* 兰亭黑_GBK.TTF */; };
-		7A02E1E01CA6B7F700262D7E /* LZDemoThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A02E1D11CA6B7F700262D7E /* LZDemoThree.storyboard */; };
-		7A02E1E11CA6B7F700262D7E /* LZDemoThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1D31CA6B7F700262D7E /* LZDemoThreeViewController.m */; };
-		7A02E1E21CA6B7F700262D7E /* LZThreeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1D51CA6B7F700262D7E /* LZThreeSelectViewController.m */; };
-		7A02E1E31CA6B7F700262D7E /* LZThreeSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A02E1D61CA6B7F700262D7E /* LZThreeSelectViewController.xib */; };
-		7A02E1E51CA6B7F700262D7E /* LZDemoTwoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1DA1CA6B7F700262D7E /* LZDemoTwoTableViewController.m */; };
-		7A02E1EE1CA6BEC000262D7E /* LZuserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1EC1CA6BEC000262D7E /* LZuserDetailViewController.m */; };
-		7A02E1EF1CA6BEC000262D7E /* LZuserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A02E1ED1CA6BEC000262D7E /* LZuserDetailViewController.xib */; };
-		7A02E1F21CA6BFEC00262D7E /* LZPicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1F11CA6BFEC00262D7E /* LZPicScrollView.m */; };
-		7A02E1F51CA6CA0200262D7E /* KCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1F41CA6CA0200262D7E /* KCImageView.m */; };
-		7A02E1F81CA6CABC00262D7E /* KCShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02E1F71CA6CABC00262D7E /* KCShakeViewController.m */; };
+		7A136CDE1CAE70FE0032C096 /* LZFourKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A136CDC1CAE70FE0032C096 /* LZFourKVOViewController.m */; };
+		7A136CDF1CAE70FE0032C096 /* LZFourKVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A136CDD1CAE70FE0032C096 /* LZFourKVOViewController.xib */; };
+		7A58A15A1CAE1CD3008E114D /* KCShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1271CAE1CD3008E114D /* KCShakeViewController.m */; };
+		7A58A15B1CAE1CD3008E114D /* LZ_showLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1291CAE1CD3008E114D /* LZ_showLiveViewController.m */; };
+		7A58A15C1CAE1CD3008E114D /* LZDemoOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A12B1CAE1CD3008E114D /* LZDemoOneViewController.m */; };
+		7A58A15D1CAE1CD3008E114D /* LZOneLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A12D1CAE1CD3008E114D /* LZOneLabelViewController.m */; };
+		7A58A15E1CAE1CD3008E114D /* LZuserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A12F1CAE1CD3008E114D /* LZuserDetailViewController.m */; };
+		7A58A15F1CAE1CD3008E114D /* KCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1331CAE1CD3008E114D /* KCImageView.m */; };
+		7A58A1601CAE1CD3008E114D /* LZDemoOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A58A1341CAE1CD3008E114D /* LZDemoOne.storyboard */; };
+		7A58A1611CAE1CD3008E114D /* LZPicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1361CAE1CD3008E114D /* LZPicScrollView.m */; };
+		7A58A1621CAE1CD3008E114D /* LZuserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A58A1371CAE1CD3008E114D /* LZuserDetailViewController.xib */; };
+		7A58A1631CAE1CD3008E114D /* LZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A13A1CAE1CD3008E114D /* LZTabBarViewController.m */; };
+		7A58A1641CAE1CD3008E114D /* 兰亭黑_GBK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7A58A13C1CAE1CD3008E114D /* 兰亭黑_GBK.TTF */; };
+		7A58A1651CAE1CD3008E114D /* LZDemoThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1401CAE1CD3008E114D /* LZDemoThreeViewController.m */; };
+		7A58A1661CAE1CD3008E114D /* LZThreeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1421CAE1CD3008E114D /* LZThreeSelectViewController.m */; };
+		7A58A1671CAE1CD3008E114D /* LZDemoThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A58A1451CAE1CD3008E114D /* LZDemoThree.storyboard */; };
+		7A58A1681CAE1CD3008E114D /* LZThreeSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A58A1461CAE1CD3008E114D /* LZThreeSelectViewController.xib */; };
+		7A58A1691CAE1CD3008E114D /* LZDemoTwoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A14A1CAE1CD3008E114D /* LZDemoTwoTableViewController.m */; };
+		7A58A16A1CAE1CD3008E114D /* LZSDAutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A14C1CAE1CD3008E114D /* LZSDAutoLayoutTableViewController.m */; };
+		7A58A16B1CAE1CD3008E114D /* LZThreeKVCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A14E1CAE1CD3008E114D /* LZThreeKVCTableViewController.m */; };
+		7A58A16C1CAE1CD3008E114D /* LZTwoPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1501CAE1CD3008E114D /* LZTwoPersonViewController.m */; };
+		7A58A16D1CAE1CD3008E114D /* FileThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A58A1521CAE1CD3008E114D /* FileThree.plist */; };
+		7A58A16E1CAE1CD3008E114D /* LZTwoPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1541CAE1CD3008E114D /* LZTwoPerson.m */; };
+		7A58A16F1CAE1CD3008E114D /* LZTwoPersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1561CAE1CD3008E114D /* LZTwoPersonViewModel.m */; };
+		7A58A1701CAE1CD3008E114D /* LZSDAutoLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1591CAE1CD3008E114D /* LZSDAutoLayoutTableViewCell.m */; };
+		7A58A1731CAE1E21008E114D /* LZThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1721CAE1E21008E114D /* LZThreeModel.m */; };
+		7A58A1771CAE1FC0008E114D /* LZThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A58A1751CAE1FC0008E114D /* LZThreeTableViewCell.m */; };
+		7A58A1781CAE1FC0008E114D /* LZThreeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A58A1761CAE1FC0008E114D /* LZThreeTableViewCell.xib */; };
 		7A5DEBF31CA610850059A534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DEBF21CA610850059A534 /* main.m */; };
 		7A5DEBF61CA610850059A534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DEBF51CA610850059A534 /* AppDelegate.m */; };
 		7A5DEBF81CA610850059A534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5DEBF71CA610850059A534 /* Assets.xcassets */; };
 		7A5DEBFB1CA610850059A534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5DEBF91CA610850059A534 /* LaunchScreen.storyboard */; };
-		7A7D44B81CA81B5D0070ABA0 /* LZSDAutoLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D44B71CA81B5D0070ABA0 /* LZSDAutoLayoutTableViewCell.m */; };
-		7A7D44BB1CA81B830070ABA0 /* LZSDAutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D44BA1CA81B830070ABA0 /* LZSDAutoLayoutTableViewController.m */; };
 		8E08643AC6B83EEBA6A275B4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7B7D08984CF337779097CC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C7B7D08984CF337779097CC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A02E1C61CA6B7F700262D7E /* LZDemoOne.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LZDemoOne.storyboard; sourceTree = "<group>"; };
-		7A02E1C71CA6B7F700262D7E /* LZDemoOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDemoOneViewController.h; sourceTree = "<group>"; };
-		7A02E1C81CA6B7F700262D7E /* LZDemoOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDemoOneViewController.m; sourceTree = "<group>"; };
-		7A02E1C91CA6B7F700262D7E /* LZOneLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOneLabelViewController.h; sourceTree = "<group>"; };
-		7A02E1CA1CA6B7F700262D7E /* LZOneLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOneLabelViewController.m; sourceTree = "<group>"; };
-		7A02E1CC1CA6B7F700262D7E /* LZTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBarViewController.h; sourceTree = "<group>"; };
-		7A02E1CD1CA6B7F700262D7E /* LZTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarViewController.m; sourceTree = "<group>"; };
-		7A02E1CE1CA6B7F700262D7E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		7A02E1CF1CA6B7F700262D7E /* 兰亭黑_GBK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "兰亭黑_GBK.TTF"; sourceTree = "<group>"; };
-		7A02E1D11CA6B7F700262D7E /* LZDemoThree.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LZDemoThree.storyboard; sourceTree = "<group>"; };
-		7A02E1D21CA6B7F700262D7E /* LZDemoThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDemoThreeViewController.h; sourceTree = "<group>"; };
-		7A02E1D31CA6B7F700262D7E /* LZDemoThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDemoThreeViewController.m; sourceTree = "<group>"; };
-		7A02E1D41CA6B7F700262D7E /* LZThreeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZThreeSelectViewController.h; sourceTree = "<group>"; };
-		7A02E1D51CA6B7F700262D7E /* LZThreeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZThreeSelectViewController.m; sourceTree = "<group>"; };
-		7A02E1D61CA6B7F700262D7E /* LZThreeSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZThreeSelectViewController.xib; sourceTree = "<group>"; };
-		7A02E1D91CA6B7F700262D7E /* LZDemoTwoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDemoTwoTableViewController.h; sourceTree = "<group>"; };
-		7A02E1DA1CA6B7F700262D7E /* LZDemoTwoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDemoTwoTableViewController.m; sourceTree = "<group>"; };
-		7A02E1EB1CA6BEC000262D7E /* LZuserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZuserDetailViewController.h; sourceTree = "<group>"; };
-		7A02E1EC1CA6BEC000262D7E /* LZuserDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZuserDetailViewController.m; sourceTree = "<group>"; };
-		7A02E1ED1CA6BEC000262D7E /* LZuserDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZuserDetailViewController.xib; sourceTree = "<group>"; };
-		7A02E1F01CA6BFEC00262D7E /* LZPicScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPicScrollView.h; sourceTree = "<group>"; };
-		7A02E1F11CA6BFEC00262D7E /* LZPicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPicScrollView.m; sourceTree = "<group>"; };
-		7A02E1F31CA6CA0200262D7E /* KCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCImageView.h; sourceTree = "<group>"; };
-		7A02E1F41CA6CA0200262D7E /* KCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCImageView.m; sourceTree = "<group>"; };
-		7A02E1F61CA6CABC00262D7E /* KCShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCShakeViewController.h; sourceTree = "<group>"; };
-		7A02E1F71CA6CABC00262D7E /* KCShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCShakeViewController.m; sourceTree = "<group>"; };
+		7A136CDB1CAE70FD0032C096 /* LZFourKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZFourKVOViewController.h; sourceTree = "<group>"; };
+		7A136CDC1CAE70FE0032C096 /* LZFourKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFourKVOViewController.m; sourceTree = "<group>"; };
+		7A136CDD1CAE70FE0032C096 /* LZFourKVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LZFourKVOViewController.xib; path = ../Controllers/LZFourKVOViewController.xib; sourceTree = "<group>"; };
+		7A58A1261CAE1CD3008E114D /* KCShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCShakeViewController.h; sourceTree = "<group>"; };
+		7A58A1271CAE1CD3008E114D /* KCShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCShakeViewController.m; sourceTree = "<group>"; };
+		7A58A1281CAE1CD3008E114D /* LZ_showLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZ_showLiveViewController.h; sourceTree = "<group>"; };
+		7A58A1291CAE1CD3008E114D /* LZ_showLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZ_showLiveViewController.m; sourceTree = "<group>"; };
+		7A58A12A1CAE1CD3008E114D /* LZDemoOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDemoOneViewController.h; sourceTree = "<group>"; };
+		7A58A12B1CAE1CD3008E114D /* LZDemoOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDemoOneViewController.m; sourceTree = "<group>"; };
+		7A58A12C1CAE1CD3008E114D /* LZOneLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOneLabelViewController.h; sourceTree = "<group>"; };
+		7A58A12D1CAE1CD3008E114D /* LZOneLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOneLabelViewController.m; sourceTree = "<group>"; };
+		7A58A12E1CAE1CD3008E114D /* LZuserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZuserDetailViewController.h; sourceTree = "<group>"; };
+		7A58A12F1CAE1CD3008E114D /* LZuserDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZuserDetailViewController.m; sourceTree = "<group>"; };
+		7A58A1321CAE1CD3008E114D /* KCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCImageView.h; sourceTree = "<group>"; };
+		7A58A1331CAE1CD3008E114D /* KCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCImageView.m; sourceTree = "<group>"; };
+		7A58A1341CAE1CD3008E114D /* LZDemoOne.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LZDemoOne.storyboard; sourceTree = "<group>"; };
+		7A58A1351CAE1CD3008E114D /* LZPicScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPicScrollView.h; sourceTree = "<group>"; };
+		7A58A1361CAE1CD3008E114D /* LZPicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPicScrollView.m; sourceTree = "<group>"; };
+		7A58A1371CAE1CD3008E114D /* LZuserDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZuserDetailViewController.xib; sourceTree = "<group>"; };
+		7A58A1391CAE1CD3008E114D /* LZTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBarViewController.h; sourceTree = "<group>"; };
+		7A58A13A1CAE1CD3008E114D /* LZTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarViewController.m; sourceTree = "<group>"; };
+		7A58A13B1CAE1CD3008E114D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7A58A13C1CAE1CD3008E114D /* 兰亭黑_GBK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "兰亭黑_GBK.TTF"; sourceTree = "<group>"; };
+		7A58A13F1CAE1CD3008E114D /* LZDemoThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDemoThreeViewController.h; sourceTree = "<group>"; };
+		7A58A1401CAE1CD3008E114D /* LZDemoThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDemoThreeViewController.m; sourceTree = "<group>"; };
+		7A58A1411CAE1CD3008E114D /* LZThreeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZThreeSelectViewController.h; sourceTree = "<group>"; };
+		7A58A1421CAE1CD3008E114D /* LZThreeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZThreeSelectViewController.m; sourceTree = "<group>"; };
+		7A58A1451CAE1CD3008E114D /* LZDemoThree.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LZDemoThree.storyboard; sourceTree = "<group>"; };
+		7A58A1461CAE1CD3008E114D /* LZThreeSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZThreeSelectViewController.xib; sourceTree = "<group>"; };
+		7A58A1491CAE1CD3008E114D /* LZDemoTwoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDemoTwoTableViewController.h; sourceTree = "<group>"; };
+		7A58A14A1CAE1CD3008E114D /* LZDemoTwoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDemoTwoTableViewController.m; sourceTree = "<group>"; };
+		7A58A14B1CAE1CD3008E114D /* LZSDAutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSDAutoLayoutTableViewController.h; sourceTree = "<group>"; };
+		7A58A14C1CAE1CD3008E114D /* LZSDAutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSDAutoLayoutTableViewController.m; sourceTree = "<group>"; };
+		7A58A14D1CAE1CD3008E114D /* LZThreeKVCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZThreeKVCTableViewController.h; sourceTree = "<group>"; };
+		7A58A14E1CAE1CD3008E114D /* LZThreeKVCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZThreeKVCTableViewController.m; sourceTree = "<group>"; };
+		7A58A14F1CAE1CD3008E114D /* LZTwoPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTwoPersonViewController.h; sourceTree = "<group>"; };
+		7A58A1501CAE1CD3008E114D /* LZTwoPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTwoPersonViewController.m; sourceTree = "<group>"; };
+		7A58A1521CAE1CD3008E114D /* FileThree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = FileThree.plist; sourceTree = "<group>"; };
+		7A58A1531CAE1CD3008E114D /* LZTwoPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTwoPerson.h; sourceTree = "<group>"; };
+		7A58A1541CAE1CD3008E114D /* LZTwoPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTwoPerson.m; sourceTree = "<group>"; };
+		7A58A1551CAE1CD3008E114D /* LZTwoPersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTwoPersonViewModel.h; sourceTree = "<group>"; };
+		7A58A1561CAE1CD3008E114D /* LZTwoPersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTwoPersonViewModel.m; sourceTree = "<group>"; };
+		7A58A1581CAE1CD3008E114D /* LZSDAutoLayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSDAutoLayoutTableViewCell.h; sourceTree = "<group>"; };
+		7A58A1591CAE1CD3008E114D /* LZSDAutoLayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSDAutoLayoutTableViewCell.m; sourceTree = "<group>"; };
+		7A58A1711CAE1E21008E114D /* LZThreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZThreeModel.h; sourceTree = "<group>"; };
+		7A58A1721CAE1E21008E114D /* LZThreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZThreeModel.m; sourceTree = "<group>"; };
+		7A58A1741CAE1FC0008E114D /* LZThreeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZThreeTableViewCell.h; sourceTree = "<group>"; };
+		7A58A1751CAE1FC0008E114D /* LZThreeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZThreeTableViewCell.m; sourceTree = "<group>"; };
+		7A58A1761CAE1FC0008E114D /* LZThreeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZThreeTableViewCell.xib; sourceTree = "<group>"; };
 		7A5DEBEE1CA610850059A534 /* SomeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5DEBF21CA610850059A534 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A5DEBF41CA610850059A534 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,10 +100,6 @@
 		7A5DEBF71CA610850059A534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A5DEBFA1CA610850059A534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A5DEBFC1CA610850059A534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A7D44B61CA81B5D0070ABA0 /* LZSDAutoLayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSDAutoLayoutTableViewCell.h; sourceTree = "<group>"; };
-		7A7D44B71CA81B5D0070ABA0 /* LZSDAutoLayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSDAutoLayoutTableViewCell.m; sourceTree = "<group>"; };
-		7A7D44B91CA81B830070ABA0 /* LZSDAutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSDAutoLayoutTableViewController.h; sourceTree = "<group>"; };
-		7A7D44BA1CA81B830070ABA0 /* LZSDAutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSDAutoLayoutTableViewController.m; sourceTree = "<group>"; };
 		922EC249E2DC8FE3B60387E5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D93494B94F3A961B560CDC46 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,62 +133,164 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7A02E1C51CA6B7F700262D7E /* One */ = {
+		7A58A1231CAE1CD3008E114D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7A02E1C61CA6B7F700262D7E /* LZDemoOne.storyboard */,
-				7A02E1C71CA6B7F700262D7E /* LZDemoOneViewController.h */,
-				7A02E1C81CA6B7F700262D7E /* LZDemoOneViewController.m */,
-				7A02E1C91CA6B7F700262D7E /* LZOneLabelViewController.h */,
-				7A02E1CA1CA6B7F700262D7E /* LZOneLabelViewController.m */,
-				7A02E1F31CA6CA0200262D7E /* KCImageView.h */,
-				7A02E1F41CA6CA0200262D7E /* KCImageView.m */,
-				7A02E1F61CA6CABC00262D7E /* KCShakeViewController.h */,
-				7A02E1F71CA6CABC00262D7E /* KCShakeViewController.m */,
-				7A02E1EB1CA6BEC000262D7E /* LZuserDetailViewController.h */,
-				7A02E1EC1CA6BEC000262D7E /* LZuserDetailViewController.m */,
-				7A02E1ED1CA6BEC000262D7E /* LZuserDetailViewController.xib */,
-				7A02E1F01CA6BFEC00262D7E /* LZPicScrollView.h */,
-				7A02E1F11CA6BFEC00262D7E /* LZPicScrollView.m */,
+				7A58A1241CAE1CD3008E114D /* One */,
+				7A58A1471CAE1CD3008E114D /* Two */,
+				7A58A13D1CAE1CD3008E114D /* Three */,
+				7A58A1381CAE1CD3008E114D /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7A58A1241CAE1CD3008E114D /* One */ = {
+			isa = PBXGroup;
+			children = (
+				7A58A1251CAE1CD3008E114D /* Controllers */,
+				7A58A1301CAE1CD3008E114D /* Models */,
+				7A58A1311CAE1CD3008E114D /* Views */,
 			);
 			path = One;
 			sourceTree = "<group>";
 		};
-		7A02E1CB1CA6B7F700262D7E /* Other */ = {
+		7A58A1251CAE1CD3008E114D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7A02E1CC1CA6B7F700262D7E /* LZTabBarViewController.h */,
-				7A02E1CD1CA6B7F700262D7E /* LZTabBarViewController.m */,
-				7A02E1CE1CA6B7F700262D7E /* PrefixHeader.pch */,
-				7A02E1CF1CA6B7F700262D7E /* 兰亭黑_GBK.TTF */,
+				7A58A1261CAE1CD3008E114D /* KCShakeViewController.h */,
+				7A58A1271CAE1CD3008E114D /* KCShakeViewController.m */,
+				7A58A1281CAE1CD3008E114D /* LZ_showLiveViewController.h */,
+				7A58A1291CAE1CD3008E114D /* LZ_showLiveViewController.m */,
+				7A58A12A1CAE1CD3008E114D /* LZDemoOneViewController.h */,
+				7A58A12B1CAE1CD3008E114D /* LZDemoOneViewController.m */,
+				7A58A12C1CAE1CD3008E114D /* LZOneLabelViewController.h */,
+				7A58A12D1CAE1CD3008E114D /* LZOneLabelViewController.m */,
+				7A58A12E1CAE1CD3008E114D /* LZuserDetailViewController.h */,
+				7A58A12F1CAE1CD3008E114D /* LZuserDetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A58A1301CAE1CD3008E114D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A58A1311CAE1CD3008E114D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A58A1321CAE1CD3008E114D /* KCImageView.h */,
+				7A58A1331CAE1CD3008E114D /* KCImageView.m */,
+				7A58A1341CAE1CD3008E114D /* LZDemoOne.storyboard */,
+				7A58A1351CAE1CD3008E114D /* LZPicScrollView.h */,
+				7A58A1361CAE1CD3008E114D /* LZPicScrollView.m */,
+				7A58A1371CAE1CD3008E114D /* LZuserDetailViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A58A1381CAE1CD3008E114D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7A58A1391CAE1CD3008E114D /* LZTabBarViewController.h */,
+				7A58A13A1CAE1CD3008E114D /* LZTabBarViewController.m */,
+				7A58A13B1CAE1CD3008E114D /* PrefixHeader.pch */,
+				7A58A13C1CAE1CD3008E114D /* 兰亭黑_GBK.TTF */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		7A02E1D01CA6B7F700262D7E /* Three */ = {
+		7A58A13D1CAE1CD3008E114D /* Three */ = {
 			isa = PBXGroup;
 			children = (
-				7A02E1D11CA6B7F700262D7E /* LZDemoThree.storyboard */,
-				7A02E1D21CA6B7F700262D7E /* LZDemoThreeViewController.h */,
-				7A02E1D31CA6B7F700262D7E /* LZDemoThreeViewController.m */,
-				7A02E1D41CA6B7F700262D7E /* LZThreeSelectViewController.h */,
-				7A02E1D51CA6B7F700262D7E /* LZThreeSelectViewController.m */,
-				7A02E1D61CA6B7F700262D7E /* LZThreeSelectViewController.xib */,
+				7A58A13E1CAE1CD3008E114D /* Controllers */,
+				7A58A1431CAE1CD3008E114D /* Models */,
+				7A58A1441CAE1CD3008E114D /* Views */,
 			);
 			path = Three;
 			sourceTree = "<group>";
 		};
-		7A02E1D71CA6B7F700262D7E /* Two */ = {
+		7A58A13E1CAE1CD3008E114D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7A02E1D91CA6B7F700262D7E /* LZDemoTwoTableViewController.h */,
-				7A02E1DA1CA6B7F700262D7E /* LZDemoTwoTableViewController.m */,
-				7A7D44B91CA81B830070ABA0 /* LZSDAutoLayoutTableViewController.h */,
-				7A7D44BA1CA81B830070ABA0 /* LZSDAutoLayoutTableViewController.m */,
-				7A7D44B61CA81B5D0070ABA0 /* LZSDAutoLayoutTableViewCell.h */,
-				7A7D44B71CA81B5D0070ABA0 /* LZSDAutoLayoutTableViewCell.m */,
+				7A58A13F1CAE1CD3008E114D /* LZDemoThreeViewController.h */,
+				7A58A1401CAE1CD3008E114D /* LZDemoThreeViewController.m */,
+				7A58A1411CAE1CD3008E114D /* LZThreeSelectViewController.h */,
+				7A58A1421CAE1CD3008E114D /* LZThreeSelectViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A58A1431CAE1CD3008E114D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A58A1441CAE1CD3008E114D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A58A1451CAE1CD3008E114D /* LZDemoThree.storyboard */,
+				7A58A1461CAE1CD3008E114D /* LZThreeSelectViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A58A1471CAE1CD3008E114D /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				7A58A1481CAE1CD3008E114D /* Controllers */,
+				7A58A1511CAE1CD3008E114D /* Models */,
+				7A58A1571CAE1CD3008E114D /* Views */,
 			);
 			path = Two;
+			sourceTree = "<group>";
+		};
+		7A58A1481CAE1CD3008E114D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A58A1491CAE1CD3008E114D /* LZDemoTwoTableViewController.h */,
+				7A58A14A1CAE1CD3008E114D /* LZDemoTwoTableViewController.m */,
+				7A58A14B1CAE1CD3008E114D /* LZSDAutoLayoutTableViewController.h */,
+				7A58A14C1CAE1CD3008E114D /* LZSDAutoLayoutTableViewController.m */,
+				7A58A14F1CAE1CD3008E114D /* LZTwoPersonViewController.h */,
+				7A58A1501CAE1CD3008E114D /* LZTwoPersonViewController.m */,
+				7A58A14D1CAE1CD3008E114D /* LZThreeKVCTableViewController.h */,
+				7A58A14E1CAE1CD3008E114D /* LZThreeKVCTableViewController.m */,
+				7A136CDB1CAE70FD0032C096 /* LZFourKVOViewController.h */,
+				7A136CDC1CAE70FE0032C096 /* LZFourKVOViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A58A1511CAE1CD3008E114D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A58A1531CAE1CD3008E114D /* LZTwoPerson.h */,
+				7A58A1541CAE1CD3008E114D /* LZTwoPerson.m */,
+				7A58A1551CAE1CD3008E114D /* LZTwoPersonViewModel.h */,
+				7A58A1561CAE1CD3008E114D /* LZTwoPersonViewModel.m */,
+				7A58A1521CAE1CD3008E114D /* FileThree.plist */,
+				7A58A1711CAE1E21008E114D /* LZThreeModel.h */,
+				7A58A1721CAE1E21008E114D /* LZThreeModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A58A1571CAE1CD3008E114D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A58A1581CAE1CD3008E114D /* LZSDAutoLayoutTableViewCell.h */,
+				7A58A1591CAE1CD3008E114D /* LZSDAutoLayoutTableViewCell.m */,
+				7A58A1741CAE1FC0008E114D /* LZThreeTableViewCell.h */,
+				7A58A1751CAE1FC0008E114D /* LZThreeTableViewCell.m */,
+				7A58A1761CAE1FC0008E114D /* LZThreeTableViewCell.xib */,
+				7A136CDD1CAE70FE0032C096 /* LZFourKVOViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		7A5DEBE51CA610850059A534 = {
@@ -182,10 +314,7 @@
 		7A5DEBF01CA610850059A534 /* SomeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7A02E1C51CA6B7F700262D7E /* One */,
-				7A02E1D71CA6B7F700262D7E /* Two */,
-				7A02E1D01CA6B7F700262D7E /* Three */,
-				7A02E1CB1CA6B7F700262D7E /* Other */,
+				7A58A1231CAE1CD3008E114D /* Classes */,
 				7A5DEBF41CA610850059A534 /* AppDelegate.h */,
 				7A5DEBF51CA610850059A534 /* AppDelegate.m */,
 				7A5DEBF71CA610850059A534 /* Assets.xcassets */,
@@ -266,13 +395,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A02E1DF1CA6B7F700262D7E /* 兰亭黑_GBK.TTF in Resources */,
-				7A02E1E31CA6B7F700262D7E /* LZThreeSelectViewController.xib in Resources */,
 				7A5DEBF81CA610850059A534 /* Assets.xcassets in Resources */,
-				7A02E1DB1CA6B7F700262D7E /* LZDemoOne.storyboard in Resources */,
+				7A58A16D1CAE1CD3008E114D /* FileThree.plist in Resources */,
+				7A58A1641CAE1CD3008E114D /* 兰亭黑_GBK.TTF in Resources */,
+				7A58A1671CAE1CD3008E114D /* LZDemoThree.storyboard in Resources */,
+				7A58A1601CAE1CD3008E114D /* LZDemoOne.storyboard in Resources */,
+				7A58A1621CAE1CD3008E114D /* LZuserDetailViewController.xib in Resources */,
+				7A58A1681CAE1CD3008E114D /* LZThreeSelectViewController.xib in Resources */,
+				7A136CDF1CAE70FE0032C096 /* LZFourKVOViewController.xib in Resources */,
+				7A58A1781CAE1FC0008E114D /* LZThreeTableViewCell.xib in Resources */,
 				7A5DEBFB1CA610850059A534 /* LaunchScreen.storyboard in Resources */,
-				7A02E1EF1CA6BEC000262D7E /* LZuserDetailViewController.xib in Resources */,
-				7A02E1E01CA6B7F700262D7E /* LZDemoThree.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,20 +463,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A02E1EE1CA6BEC000262D7E /* LZuserDetailViewController.m in Sources */,
-				7A02E1E11CA6B7F700262D7E /* LZDemoThreeViewController.m in Sources */,
-				7A7D44B81CA81B5D0070ABA0 /* LZSDAutoLayoutTableViewCell.m in Sources */,
-				7A02E1DE1CA6B7F700262D7E /* LZTabBarViewController.m in Sources */,
-				7A02E1F81CA6CABC00262D7E /* KCShakeViewController.m in Sources */,
-				7A02E1DD1CA6B7F700262D7E /* LZOneLabelViewController.m in Sources */,
+				7A58A1651CAE1CD3008E114D /* LZDemoThreeViewController.m in Sources */,
+				7A58A1631CAE1CD3008E114D /* LZTabBarViewController.m in Sources */,
+				7A58A15A1CAE1CD3008E114D /* KCShakeViewController.m in Sources */,
+				7A58A1611CAE1CD3008E114D /* LZPicScrollView.m in Sources */,
 				7A5DEBF61CA610850059A534 /* AppDelegate.m in Sources */,
+				7A58A1661CAE1CD3008E114D /* LZThreeSelectViewController.m in Sources */,
+				7A58A15E1CAE1CD3008E114D /* LZuserDetailViewController.m in Sources */,
 				7A5DEBF31CA610850059A534 /* main.m in Sources */,
-				7A02E1F21CA6BFEC00262D7E /* LZPicScrollView.m in Sources */,
-				7A7D44BB1CA81B830070ABA0 /* LZSDAutoLayoutTableViewController.m in Sources */,
-				7A02E1E51CA6B7F700262D7E /* LZDemoTwoTableViewController.m in Sources */,
-				7A02E1DC1CA6B7F700262D7E /* LZDemoOneViewController.m in Sources */,
-				7A02E1F51CA6CA0200262D7E /* KCImageView.m in Sources */,
-				7A02E1E21CA6B7F700262D7E /* LZThreeSelectViewController.m in Sources */,
+				7A58A1771CAE1FC0008E114D /* LZThreeTableViewCell.m in Sources */,
+				7A58A15F1CAE1CD3008E114D /* KCImageView.m in Sources */,
+				7A58A16A1CAE1CD3008E114D /* LZSDAutoLayoutTableViewController.m in Sources */,
+				7A58A1691CAE1CD3008E114D /* LZDemoTwoTableViewController.m in Sources */,
+				7A58A16E1CAE1CD3008E114D /* LZTwoPerson.m in Sources */,
+				7A136CDE1CAE70FE0032C096 /* LZFourKVOViewController.m in Sources */,
+				7A58A15B1CAE1CD3008E114D /* LZ_showLiveViewController.m in Sources */,
+				7A58A16C1CAE1CD3008E114D /* LZTwoPersonViewController.m in Sources */,
+				7A58A16F1CAE1CD3008E114D /* LZTwoPersonViewModel.m in Sources */,
+				7A58A1701CAE1CD3008E114D /* LZSDAutoLayoutTableViewCell.m in Sources */,
+				7A58A1731CAE1E21008E114D /* LZThreeModel.m in Sources */,
+				7A58A15D1CAE1CD3008E114D /* LZOneLabelViewController.m in Sources */,
+				7A58A15C1CAE1CD3008E114D /* LZDemoOneViewController.m in Sources */,
+				7A58A16B1CAE1CD3008E114D /* LZThreeKVCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +590,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/SomeDemo/Other/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SomeDemo/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = SomeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SomeDemo;
@@ -467,7 +607,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/SomeDemo/Other/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SomeDemo/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = SomeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SomeDemo;
